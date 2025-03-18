@@ -51,7 +51,7 @@ body {
 }
 
 .numero {
-	display: inline-block;
+	display: table-cell;
 	width: 30px;
 	height: 40px;
 	border: 1px solid #000;
@@ -150,4 +150,19 @@ body {
 	font-size: 15px;
 	width: 90px;
 	height: 50px;
+}
+
+.aviso--grande {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.aviso--gigante {
+	font-size: 70px;
+	font-weight: bold;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
